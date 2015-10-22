@@ -20,6 +20,14 @@
             android:name=".CountrysideActivity"
             android:label="@string/title_activity_countryside" >
         </activity>
+        <activity
+            android:name=".CityActivity"
+            android:label="@string/title_activity_city"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.epicodus.citylifecountrylife.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

@@ -9,31 +9,31 @@
                 tools:context="com.epicodus.citylifecountrylife.CountrysideActivity"
                 android:background="#649A9A">
 
-    <HorizontalScrollView
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:id="@+id/horizontalScrollView"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:fillViewport="false">
-
-    </HorizontalScrollView>
-
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView"
         android:src="@drawable/country_guatemala"
-        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Semuc Champey, Guatemala"
+        android:id="@+id/countryImageView"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:src="@drawable/country_florida"
-        android:layout_alignTop="@+id/imageView"
-        android:layout_toRightOf="@+id/imageView"
-        android:layout_toEndOf="@+id/imageView"/>
+        android:id="@+id/countrySecondImageView"
+        android:src="@drawable/country_guatemala"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"/>
 
 </RelativeLayout>
