@@ -32,8 +32,27 @@
         android:layout_height="wrap_content"
         android:id="@+id/countrySecondImageView"
         android:src="@drawable/country_guatemala"
-        android:layout_above="@+id/imageView"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"/>
+        android:layout_above="@+id/countryImageView"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countrysideNextButton"
+        android:src="@drawable/smalllast"
+        android:background="@android:color/transparent"
+        android:layout_alignBottom="@+id/countrySecondImageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nextButton"
+        android:src="@drawable/smallnext"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@+id/countrysideNextButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
 
 </RelativeLayout>
