@@ -25,13 +25,25 @@ public class CountrysideDatabase {
         mCountrysides.add(new Countryside(
                 "Semuc Champey, Guatemala",
                 R.drawable.country_guatemala,
-                R.drawable.country_guatemala
+                R.drawable.country_guatemala2
         ));
 
         mCountrysides.add(new Countryside(
                 "Rural, Ireland",
                 R.drawable.country_ireland,
-                R.drawable.country_ireland
+                R.drawable.country_ireland2
+        ));
+
+        mCountrysides.add(new Countryside(
+                "New Mexico, US",
+                R.drawable.country_newmexico,
+                R.drawable.country_newmexico2
+        ));
+
+        mCountrysides.add(new Countryside(
+                "Vermont, US",
+                R.drawable.country_vermont,
+                R.drawable.country_vermont2
         ));
     }
 

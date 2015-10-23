@@ -26,37 +26,37 @@ public class CityDatabase {
         mCities.add(new City(
             "Bordeaux, France",
             R.drawable.city_bordeaux,
-            R.drawable.city_bordeaux
+            R.drawable.city_bordeaux2
         ));
 
         mCities.add(new City(
             "Charleston, North Carolina",
             R.drawable.city_charleston,
-            R.drawable.city_charleston
+            R.drawable.country_charleston2
         ));
 
         mCities.add(new City(
             "Guadalajara, Mexico",
             R.drawable.city_guadalajara,
-            R.drawable.city_guadalajara
+            R.drawable.city_guadalajara2
         ));
 
         mCities.add(new City(
             "San Diego, California",
             R.drawable.city_sandiego,
-            R.drawable.city_sandiego
+            R.drawable.city_sandiego2
         ));
 
         mCities.add(new City(
             "Savannah, Georgia",
             R.drawable.city_savannah,
-            R.drawable.city_savannah
+            R.drawable.city_savannah2
         ));
 
         mCities.add(new City(
                 "Sicily, Italy",
                 R.drawable.city_sicily,
-                R.drawable.city_sicily
+                R.drawable.city_sicily2
         ));
     }
 
